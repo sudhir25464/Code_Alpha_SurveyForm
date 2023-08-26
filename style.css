@@ -1,0 +1,110 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+
+}
+img{
+    height: fit-content;
+    width: fit-content;
+}
+.back{
+    background-image: url( "imgBack.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.imageshadow{
+    height: 100vh;
+
+    background-color: rgba(67, 11, 11, 0.447);
+}
+.text-light{
+    text-align: center;
+}
+.mrq-bg{
+    background-color: rgba(67, 11, 11, 0.1);
+}
+
+.txt-rg{
+    color: bisque;
+
+}
+
+.btn-div{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 2px 4px;
+    font-weight: bold;
+    color: white;
+    border: 0.5px solid blue;
+}
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn a:hover{
+    color: white;
+
+}
+.typer{
+    width: 10ch;
+    overflow: hidden;
+    animation: typing 2.5s steps(15) infinite alternate-reverse;
+
+    
+}
+@keyframes typing{
+    from{width: 0ch;}
+    to{width: 15ch;}
+}
+@media (max-width:600px){
+    .text-light{
+        font-size: 20px;
+    }
+
+}
+@media (max-width:600px ){
+    .text-light{
+        font-size: 20px;
+    }
+    .p-1{
+        font-size: 16px;
+    }
+
+    .txt-rg{
+        border: 1px solid rgb(246, 158, 43);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        word-spacing: 4px;
+        letter-spacing: 1.2px;
+        padding: 10px;
+        
+    }
+}
+@media (max-width:726px){
+    .btn-div{
+        padding-top: 25px;
+    }
+    .btn{
+        background-color: blue;
+        padding-top: 10px;
+    }
+}
+@media ( (min-width:726px) and (max-width:1500px)){
+    .btn{
+        background-color: rgb(191, 191, 62);
+        padding: 20px 20px;
+        color: aliceblue;
+        font-weight: bold;
+    }
+    .btn a{
+        color: rgb(240, 229, 229);
+    }
+}

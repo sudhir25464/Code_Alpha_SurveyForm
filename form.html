@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formRegister</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <link href="form.css" rel="stylesheet">
+
+
+</head>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+         <div class="col">
+             <div class="back">
+                 <div class="imageshadow ">
+                     
+                     <div class="container">
+                         <h1 class="text-light px-md-2 py-5">Public Opinion Survey Registration:<br> Share Your Valuable Insights!</h1>
+                     
+
+                         
+                            <div class="container pb-5 ">
+                                <div class="row main_form_container">
+                                    <div class="col-md-6 col-lg-6 bg-light py-2  img-bg order-1 order-lg-2 order-md-2">
+                                        
+
+                                        <div class="card" style="width: 18rem;">
+                                            <img src="reg2.jpeg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <p class="card-text">Register now</p>
+                                            </div>
+                                          </div>                        
+                                    </div>
+                                    <div class="col-md-6 col-lg-6 bg-form order-2 order-lg-2 order-md-2">
+                                        <h4 class="surveytxt">Survey  From</h4>
+                                        <form action="https://formspree.io/f/xaygedyo" method="POST">
+            
+                                            <div class="row formstyle  p-lg-3 p-md-3">
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mb-3">
+                                                        <label  class="form-label">Full name</label>
+                                                        <input type="name" class="form-control shadow-none" name="full_name"  id="name" placeholder="Full name" required>
+                                                      </div>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6">
+            
+                                                    <div class="mb-3">
+                                                        <label  class="form-label">Father's name</label>
+                                                        <input type="name" class="form-control shadow-none"  name="father's_name"  id="fname" placeholder="Father's name" required>
+                                                      </div>
+                                                   
+                                                      
+                                                </div>
+            
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mb-3">
+                                                        <label  class="form-label">Email address</label>
+                                                        <input type="email" class="form-control shadow-none" name="email" id="eml" placeholder="email@example.com" required>
+                                                      </div>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6">
+                                                    <div class="mb-3">
+                                                        <label  class="form-label">Contact no</label>
+                                                        <input type="number" class="form-control shadow-none" name="mobile_no" id="contact" placeholder="Mobile No" required>
+                                                      </div>
+                                            
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="mb-3">
+                                                        <input type="number" class="form-control shadow-none"  name="Age"  id="age" placeholder="Enter your age" required>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <label class="form-check-label me-5">Gender:</label> 
+                                                     </div>  
+                                                     <div class="col-6">
+                                                        <input class="form-check-input shadow-none ms-3" type="radio" name="Gender" value="male"  required>
+                                                        <label class="form-check-label me-lg-5 ">Male </label> 
+
+                                                        <input class="form-check-input shadow-none" type="radio" name="Gender"  value="Female" required>
+                                                        <label class="form-check-label " >Female </label> 
+                                                     </div>
+                                                        
+                                          
+                                                </div>
+            
+                                                 <div class="row my-2">
+                                                   <div class="col-6">
+                                                        <label class="form-check-label py-2 me-4">Select Religion:</label>    
+                                                     </div>
+                                                     <div class="col-6 ">
+                                                        <select  class="form-select shadow-none" name="Religion" required>
+                                                            <option selected>Select religion</option>
+                                                            <option value="Hindu">Hindu</option>
+                                                            <option value="Muslim">Muslim</option>
+                                                            <option value="Shikh">Shikh</option>
+                                                            <option value="jain">jain</option>
+                                                            <option value="Other">other</option>
+                                                          </select>    
+                                                        
+                                                       </div>
+                                                </div>
+                                                   
+
+                                                <div class="row my-2">
+                                                    <div class="col-6">
+                                                        <label class="form-check-label py-2 me-4">Select state:</label>    
+                                                     </div>
+                                                     <div class="col-6">
+                                                        <select  class="form-select shadow-none" name="state" required>
+                                                            <option selected>Select state</option>
+                                                            <option value="Bihar">Bihar</option>
+                                                            <option value="Up">Up</option>
+                                                            <option value="Other">other</option>
+                                                          </select>    
+                                                        
+                                                        </div>
+                                                 </div>
+                                                 <div class=" col-12 pt-2 pb-4">
+                                                    <textarea class="form-control shadow-none"  placeholder="Message" name="message" required></textarea>
+
+                                                 </div>
+                                             <button type="submit" onclick="validate()" class=" btn btn_submit ">submit</button> 
+            
+                                            </div>
+                                        </form>
+                                   
+                                    </div>
+                                </div>
+                            </div>
+
+
+                             </div>
+                        </div>
+                 </div>
+             </div>
+         </div>
+        </div>
+    </div>
+     
+ <script src="form.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

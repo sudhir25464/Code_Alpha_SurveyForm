@@ -1,0 +1,88 @@
+*{
+    margin: 0vh;
+    padding: 0vh;
+
+}
+img{
+    height: fit-content;
+    width: fit-content;
+}
+.back{
+    background-image: url("imgBack.jpg");
+    background-color: rgba(67, 11, 11, 0.447);
+    height:120vh;
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+.imageshadow{
+    height:120vh;
+
+    background-color: rgba(67, 11, 11, 0.447);
+   
+}
+.text-light{
+    text-align: center;
+    font-size: 30px;
+}
+.txt-rg{
+    color: bisque;
+
+}
+.formstyle{
+    background-color: rgb(205, 204, 204);
+}
+.bg-form{
+    background-color: rgb(239, 222, 222);
+    border-radius: 30px;
+
+}
+.surveytxt{
+    text-align: center;
+    font-family: elephant;
+    font-weight: bold;
+    color: rgb(29, 137, 231);
+}
+.main_form_container{
+   
+    border: 2.5px solid pink;
+}
+.img-bg{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media ( (min-width:726px) and (max-width:1500px)){
+
+    .back{
+        height: 140vh;
+    }
+    .imageshadow{
+        height: 140vh;
+    }
+}
+@media(max-width:765px){
+
+    .back{
+        height: 160vh;
+    }
+    .imageshadow{
+        height: 160vh;
+    }
+}
+.btn_submit{
+    outline: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.btn_submit:hover{
+    outline: none;
+    background-color: rgba(17, 154, 17, 0.699);
+    color: white;
+    font-weight: bold;
+
+}
+
+
